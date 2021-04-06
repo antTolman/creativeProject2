@@ -1,6 +1,6 @@
-document.getElementById("weatherSubmit").addEventListener("click", function(event) {
+document.getElementById("emailSubmit").addEventListener("click", function(event) {
   event.preventDefault();
-  const value = document.getElementById("weatherInput").value;
+  const value = document.getElementById("emailInput").value;
   if (value === "")
     return;
   // console.log(value);
